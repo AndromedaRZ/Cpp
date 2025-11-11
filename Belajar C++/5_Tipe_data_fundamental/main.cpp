@@ -49,13 +49,22 @@ int main() {
     cout << numeric_limits<double>::min() << endl;
     
     // Karakter
-    char f = 'a';
+    char f = 'a'; // single character, tipe data yang hanya bisa menyimpan satu karakter saja
 
     cout << "\nTipe data char" << endl;
     cout << f << endl;
     cout << sizeof(f) << " byte" << endl;
     // cout << numeric_limits<char>::max() << endl;
     // cout << numeric_limits<char>::min() << endl;
+    
+    string f2 = "karakter"; // 
+
+    cout << "\nTipe data string" << endl;
+    cout << f2 << endl;
+    cout << sizeof(f2) << " byte" << endl;
+    cout << numeric_limits<string>::max() << endl;
+    cout << numeric_limits<string>::min() << endl;
+    
 
     // Boolean
     bool g = true; // true atau false

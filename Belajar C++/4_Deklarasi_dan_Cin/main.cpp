@@ -3,7 +3,8 @@ using namespace std; // jika menggunakan 'using namespace std' ini, maka saat me
 
 int main() {
     int a; // deklarasi sebuah variabel
-    a = 10; // memasukan nilai/value ke dalam sebuah variabel
+    a = 10; // memasukan nilai/value ke dalam sebuah variabel (assignment)
+    int a = 10; // bisa juga deklarasi dan assignment disatukan
     cout << a << endl;
 
     int b;

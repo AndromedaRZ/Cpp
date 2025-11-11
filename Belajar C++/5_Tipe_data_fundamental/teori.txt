@@ -23,7 +23,9 @@ Tipe data Short termasuk ke dalam tipe data bilangan bulat sama seperti integer 
 - Double, sama seperti Float yaitu salah satu tipe data yang memiliki koma atau bilangan desimal. Jumlah Byte dalam double adalah 8 Byte karena double mampu menampung nilai lebih banyak dari pada float, yaitu nilai maksimum berkisar 79769e+308 dan nilai minimumnya berkisar 22507e-308.
 
 >> CHARACTER / karakter
-- char, yaitu tipe data yang isinya berupa karakter atau single character yang ditutupi oleh petik satu atau single quote (') dan besar Byte-nya adalah 1 Byte. 
+- char, yaitu tipe data yang isinya berupa satu karakter saja atau single character yang ditutupi oleh petik satu atau single quote (') dan besar Byte-nya adalah 1 Byte.
+
+- string, yaitu tipe data yang isinya berupa beberapa karakter yang ditutupi oleh petik dua atau double quote (") dan besar Byte-nya adalah 32-byte
 
 >> BOOLEAN / True atau False
 - bool, hanya ada dua nilai yang bisa disimpan ke dalam boolean yaitu True (1) atau False (0)
