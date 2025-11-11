@@ -1,0 +1,21 @@
+Proses compile file C++ agar bisa executable (bisa dieksekusi)
+
+Dimulai dari file cpp melakukan proses yang namanya Preprocessing, contohnya saat kita memasukan kode iostream ke dalam file cpp kita, kemudian iostream akan dimasukan ke proses Preprocessing lalu dicompile menjadi sebuah object file atau bahasa yang dimengerti mesin, dan akan menuju proses yang namanya Linking lalu menjadi file exe nya
+
+File cpp --> Preprocessing --> Compile --> Linking
+
+Dalam file cpp yang ada perintah #include, #include berarti akan mencopy file yang dipanggil include tersebut seperti iostream dalam #include iostream. Jadi, include akan mencopy semua yang ada di iostream ke dalam file cpp kita
+
+Perintah pada g++
+- Membuat file cpp menjadi executable
+> g++ <nama_file_cpp>
+
+hasil ekstensi file di atas akan menjadi .exe, agar langsung menjadi nama file yang kita inginkan, kita bisa menggunakan perintah
+> g++ <nama_file_cpp> -o <nama_file_cpp_yang_barunya>
+
+- hanya Compile file saja
+> g++ -c <nama_file_cpp-nya>
+
+hasil ekstensi file di atas akan menjadi .o
+
+
