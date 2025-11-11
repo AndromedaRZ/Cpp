@@ -2,4 +2,4 @@
 .vscode
 
 # ignore extensi spesifik 
-.exe
+*.exe
