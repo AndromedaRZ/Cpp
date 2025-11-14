@@ -2,7 +2,8 @@
     "workbench.colorTheme": "Visual Studio Dark - C++",
     "files.associations": {
         "iostream": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "ostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
