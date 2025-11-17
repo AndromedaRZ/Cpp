@@ -1,0 +1,34 @@
+Byte adalah satuan ukuran data terkecil yang biasanya digunakan untuk menyimpan satu karakter (huruf, angka, atau simbol) di dalam komputer
+1 Byte terdiri dari 8 bit, dan bit sendiri adalah nilai terkecil dalam komputer, bisa bernilai 0 atau 1
+
+Dalam bahasa C++, cara melihat ukuran byte dari sebuah variabel adalah dengan menggunakan perintah 'sizeof'
+
+>> BILANGAN BULAT
+- Integer / Bilangan bulat
+Tipe data Integer atau bilangan bulat yang tidak ada koma memiliki 32-bit dan bit awal selalu diisi dengan tanda + atau - dan sisa 31-bit atau 4 Byte, dan nilai maksimum yang bisa ditampung Integer adalah 2^31 atau 2,147,483,648 karena dimulai dari 0 jadi harus dimasukan angka 0 nya maka menjadi 2,147,483,647 dan minimumnya adalah -2,147,483,648
+
+cara melihat maksimum Byte dari sebuah tipe data adalah dengan menggunakan numeric_limit, yaitu fungsi dari library limits, jadi jika ingin memakainya maka kita perlu memanggil library-nya terlebih dahulu dengan mengetikan #include <limits> di atas source code kita
+
+Jika kita memasukan nilai integer lebih dari maksimum yang bisa ditampungnya, maka nilai integernya akan memutar atau kembali ke minimum nilainya yaitu -2,147,483,648 dan kodenya tidak akan langsung error
+
+- Long / Tipe data bilangan bulat
+Tipe data Long termasuk ke dalam tipe data bilangan bulat sama seperti integer, memiliki 64-bit atau sekitar 8 Byte ukuran bitnya. Memiliki maksimal dan minimal nilai yang hampir sama dengan integer
+
+- Short / Tipe data bilangan bulat
+Tipe data Short termasuk ke dalam tipe data bilangan bulat sama seperti integer dan long, ukuran bitnya adalah 2 Byte dan maksimum nilainya adalah 32,767 dan minimum nilainya adalah -32,768
+
+>> BILANGAN DESIMAL / ADA KOMA (,)
+- Float, adalah salah satu tipe data yang memiliki koma atau bilangan desimal seperti (1.5, 2.0, 3.4). Jumlah Byte dalam tipe data float adalah 4 Byte. Tipe data float memiliki nilai maksimum berkisar 3.40282e+38 dan nilai minimum berkisar 1.17549e-38.
+
+- Double, sama seperti Float yaitu salah satu tipe data yang memiliki koma atau bilangan desimal. Jumlah Byte dalam double adalah 8 Byte karena double mampu menampung nilai lebih banyak dari pada float, yaitu nilai maksimum berkisar 79769e+308 dan nilai minimumnya berkisar 22507e-308.
+
+>> CHARACTER / karakter
+- char, yaitu tipe data yang isinya berupa satu karakter saja atau single character yang ditutupi oleh petik satu atau single quote (') dan besar Byte-nya adalah 1 Byte.
+
+- string, yaitu tipe data yang isinya berupa beberapa karakter yang ditutupi oleh petik dua atau double quote (") dan besar Byte-nya adalah 32-byte
+
+>> BOOLEAN / True atau False
+- bool, hanya ada dua nilai yang bisa disimpan ke dalam boolean yaitu True (1) atau False (0)
+
+> UNSIGNED
+- unsigned, membuat sebuah tipe data menjadi 0 nilai minimunya tetapi melipat gandakan nilai maksimumnya
