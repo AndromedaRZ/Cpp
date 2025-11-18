@@ -1,7 +1,7 @@
 # 📘 Repository Belajar C++
 
 Repository ini saya gunakan sebagai tempat menyimpan seluruh folder dan file yang berisi latihan serta materi yang saya pelajari selama mempelajari bahasa pemrograman **C++**.  
-Semua kode di dalam repository ditulis untuk memahami konsep dasar hingga beberapa konsep lanjutan secara bertahap.
+Semua kode di dalam repository ini ditulis untuk memahami konsep dasar hingga beberapa konsep lanjutan secara bertahap.
 
 ## 📁 Isi Repository
 - **Dasar C++** – variabel, tipe data, operator, input/output  
