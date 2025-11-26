@@ -26,5 +26,5 @@ void fungsi(int *b) {
 } 
 
 void kuadrat(int *valPtr) {
-    *valPtr = (*valPtr) * (*valPtr); // menggunakan pointer untuk mengkuadratkan suatu bilangan, jika menggunakan variabel biasa maka nilai integernya tidak akan bisa dikalikan dengan nilainya seniri
+    *valPtr = (*valPtr) * (*valPtr); // menggunakan pointer untuk mengkuadratkan suatu bilangan, jika menggunakan variabel biasa maka nilai integernya tidak akan bisa dikalikan dengan nilainya sendiri
 }
